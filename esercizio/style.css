@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+}
+main {
+    width: 1100px;
+    margin: auto;
+}
+
 
 .sfondo {
     background-image: url("pattern.png");
@@ -13,7 +21,12 @@
 
 .contenitore-logo img {
   height: 50px ; 
-  margin-top: 150px; 
+  margin-top: 150px;
+   
+}
+
+h1 {
+    margin-top: 20px;
 }
 
 .autore {
@@ -35,13 +48,17 @@
      font-size: 12px;
  }
 
+ p {
+     margin-top: 20px;
+ }
+
 .testo-evidenziato {
-    background-color: red;
+    background-color: rgb(251, 255, 0);
 
 }
 
 .elencopuntato {
-
+margin-top: 20px;
 }
 
 table {
