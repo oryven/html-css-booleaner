@@ -46,7 +46,37 @@
 
 table {
     border-collapse: collapse;
+    margin-top: 50px;
 }
 .primarigatabella {
     background-color: cornflowerblue;
+}
+
+.suggerimento {
+    color: darkgray;
+    margin-top: 50px;
+}
+
+.graph {
+    color: gainsboro;
+    font-size: 20px;
+    background-image: url("graph.jpg");
+    height: 200px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.monitor {
+    color: gainsboro;
+    font-size: 20px;
+    background-image: url("monitor.jpg");
+    height: 200px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
 }
