@@ -1,27 +1,44 @@
-body {
-    width: 700px;
-    margin: auto;
-}
+
 .sfondo {
     background-image: url("pattern.png");
-    height: 200px;
+    /* height: 200px; */
+    /* background-repeat: repeat-x ; */
+    background-size: 300px;
     background-color: rgba(37, 37, 148, 0.5); 
 }
 
 .contenitore-logo {
-    width: 1000px;
-    margin: auto;
-img {
-  height: 50%;  
+    width: 100%;
+}
+
+.contenitore-logo img {
+  height: 50px ; 
+  margin-top: 150px; 
 }
 
 .autore {
-    font-size: 50px;
-    color: seagreen;
+    font-size: 16px;
     display: inline;
 }
 
 .firma {
     display: inline;
-    color: rgb(94, 10, 87);
+    color: rgb(15, 165, 23);
+}
+
+.data {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+ .didascaliafoto {
+     font-size: 12px;
+ }
+
+.testo-evidenziato {
+    background-color: red;
+}
+
+.elencopuntato {
+
 }
