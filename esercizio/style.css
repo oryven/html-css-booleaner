@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    
 }
 main {
     width: 1100px;
@@ -72,7 +71,11 @@ table {
     background-color: cornflowerblue;
 }
 
-.secondarigatabella {
+td {
+    width: 20%;
+}
+
+.terzarigatabella {
     background-color:cadetblue;
 }
 
