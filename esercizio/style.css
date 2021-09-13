@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    
 }
 main {
     width: 1100px;
@@ -59,6 +60,7 @@ h1 {
 
 .elencopuntato {
 margin-top: 20px;
+padding: 20px;
 }
 
 table {
@@ -66,7 +68,16 @@ table {
     margin-top: 50px;
 }
 .primarigatabella {
+    color: white;
     background-color: cornflowerblue;
+}
+
+.secondarigatabella {
+    background-color:cadetblue;
+}
+
+.cellatabella {
+    padding: 0px 100px;
 }
 
 .suggerimento {
@@ -83,7 +94,6 @@ table {
     padding-top: 10px;
     padding-left: 20px;
     margin-top: 20px;
-    display: inline-block;
 }
 
 .monitor {
@@ -94,6 +104,5 @@ table {
     width: 300px;
     padding-top: 10px;
     padding-left: 20px;
-    margin-top: 20px;
-    display: inline-block;
+    margin-top: 20px; 
 }
