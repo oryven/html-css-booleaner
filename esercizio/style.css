@@ -1,0 +1,27 @@
+body {
+    width: 700px;
+    margin: auto;
+}
+.sfondo {
+    background-image: url("pattern.png");
+    height: 200px;
+    background-color: rgba(37, 37, 148, 0.5); 
+}
+
+.contenitore-logo {
+    width: 1000px;
+    margin: auto;
+img {
+  height: 50%;  
+}
+
+.autore {
+    font-size: 50px;
+    color: seagreen;
+    display: inline;
+}
+
+.firma {
+    display: inline;
+    color: rgb(94, 10, 87);
+}
