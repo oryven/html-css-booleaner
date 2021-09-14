@@ -72,7 +72,7 @@ table {
 }
 
 td {
-    width: 20%;
+    padding-right: 150px;
 }
 
 .terzarigatabella {
@@ -88,24 +88,20 @@ td {
     margin-top: 50px;
 }
 
-.graph {
+#img1 {
+    background-image: url("graph.jpg");
+}
+
+#img2 {
+    background-image: url("monitor.jpg");
+}
+
+.boxfooter {
     color: gainsboro;
     font-size: 20px;
-    background-image: url("graph.jpg");
     height: 200px;
     width: 300px;
     padding-top: 10px;
     padding-left: 20px;
     margin-top: 20px;
-}
-
-.monitor {
-    color: gainsboro;
-    font-size: 20px;
-    background-image: url("monitor.jpg");
-    height: 200px;
-    width: 300px;
-    padding-top: 10px;
-    padding-left: 20px;
-    margin-top: 20px; 
 }
